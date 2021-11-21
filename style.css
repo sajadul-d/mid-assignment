@@ -1,0 +1,104 @@
+*{transition:all 0.3s ease-in-out;}
+
+body {
+  background-color:  #0a192f;
+  color: #4e4e4e;
+}
+
+ 
+a {
+  color: #1e1e1e;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+ 
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+#nav-design{
+  margin-right: 300px;
+ 
+}
+
+.logo img{
+  float:left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+ul li a{
+  color: whitesmoke;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+
+  
+}
+ 
+
+
+.profile-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* Contact section design */
+.circle2{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: #00bd84;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center ;   
+  
+}
+
+.circle2:hover{
+   background-color: rgb(145, 34, 117);
+
+}
+.log-modal-content{
+  padding: 10px;
+  margin-top: 15%;
+  margin-left:35%;
+  width: 50%;
+  height: auto;
+  border: var(--border);
+  background-color:white;
+}
+
+#display{display: none;}
+#email{display: none;}
+#name-alt{display: none;}
+#cancel-btn{
+    display: block;
+}
+
+#cancel-btn{
+  margin-left:140px;
+  padding: 5px;
+  width: 20%;
+  height:20%;
+  background-color:red;
+  color: white;
+  border-radius: 5px;
+   
+}
